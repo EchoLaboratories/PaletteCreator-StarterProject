@@ -23,6 +23,9 @@ class PaletteTableViewController: UITableViewController {
         self.navigationItem.rightBarButtonItem = self.editButtonItem
         
         navigationController?.setToolbarHidden(true, animated: false)
+        
+        addButton.accessibilityIdentifier = "create-palette-button"
+        tableView.accessibilityIdentifier = "palette-table"
     }
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation

@@ -68,11 +68,18 @@ class PaletteEntryViewController: UIViewController {
         for (index, button) in colorButtons.enumerated() {
             button.paletteIndex = index
             button.paletteColor = palette.colors[index]
+            button.accessibilityIdentifier = "color-button-\(index)"
         }
         
         nameTextField.delegate = self
         nameTextField.text = palette.name
         refreshViews()
+        
+        nameTextField.accessibilityIdentifier = "palette-entry-text-field"
+        saveButton.accessibilityIdentifier = "palette-entry-save-button"
+        sliders[0].accessibilityIdentifier = "red-slider"
+        sliders[1].accessibilityIdentifier = "green-slider"
+        sliders[2].accessibilityIdentifier = "blue-slider"
     }
 }
 

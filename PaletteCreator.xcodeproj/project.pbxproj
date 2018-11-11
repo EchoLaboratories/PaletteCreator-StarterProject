@@ -38,7 +38,6 @@
 		559AE464218FC44500C18321 /* PaletteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteDetailViewController.swift; sourceTree = "<group>"; };
 		559AE466218FC7D800C18321 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
 		559AE469218FCDCC00C18321 /* PaletteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteTableViewCell.swift; sourceTree = "<group>"; };
-		559AE46E218FDFA000C18321 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +86,6 @@
 				5573B56C218E56610036FD92 /* Assets.xcassets */,
 				5573B56E218E56610036FD92 /* LaunchScreen.storyboard */,
 				5573B571218E56610036FD92 /* Info.plist */,
-				559AE46E218FDFA000C18321 /* README.md */,
 			);
 			path = PaletteCreator;
 			sourceTree = "<group>";
